@@ -1,0 +1,9 @@
+E -> T E'
+E' -> opsuma T E'
+E' -> ε
+T -> F T'
+T' -> opmul F T'
+T' -> ε
+F -> num
+F -> id
+F -> pari E pard
